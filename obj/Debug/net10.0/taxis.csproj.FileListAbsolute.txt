@@ -12,3 +12,4 @@
 /home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/taxis.pdb
 /home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/taxis.genruntimeconfig.cache
 /home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/ref/taxis.dll
+/home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/taxis.sourcelink.json

@@ -8,7 +8,7 @@ namespace taxis
         public static void Main(string[] args)
         {
 
-            float[] valoresCarros = new float[20];
+            float[] valoresCarros = new float[5];
 
             bool sistema = true;
             string? opcao;
@@ -36,9 +36,9 @@ namespace taxis
                         while (true)
                         {
                             numeroCarro = FuncoesAuxiliares.lerNumeroInteiro("Insira o numero do carro: ");
-                            if (numeroCarro <= 0 || numeroCarro > 20)
+                            if (numeroCarro <= 0 || numeroCarro > valoresCarros.Length)
                             {
-                                Console.WriteLine("\nInsira um numero de carro valido! (Entre 1 e 20).\n");
+                                Console.WriteLine("\nInsira um numero de carro valido! (Entre 1 e {0}).\n",valoresCarros.Length);
                             }
                             else
                             {
@@ -96,7 +96,7 @@ namespace taxis
                                 maiorValor = i;
                             }
                         }
-                        Console.WriteLine("O taxi que mais faturou foi o {0}, com {1}",maiorValor+1,valoresCarros[maiorValor].ToString("C"));
+                        Console.WriteLine("\nO taxi que mais faturou foi o {0}, com {1}",maiorValor+1,valoresCarros[maiorValor].ToString("C"));
                         Console.ReadKey();
                         break;
                     case "4":
@@ -108,7 +108,7 @@ namespace taxis
                                 menorValor = i;
                             }
                         }
-                        Console.WriteLine("O taxi que menos faturou foi o {0}, com {1}",menorValor+1,valoresCarros[menorValor].ToString("C"));
+                        Console.WriteLine("\nO taxi que menos faturou foi o {0}, com {1}",menorValor+1,valoresCarros[menorValor].ToString("C"));
                         Console.ReadKey();
                         break;
                     case "5":
@@ -125,6 +125,8 @@ namespace taxis
                         }
                         break;
                     case "0":
+                        Console.Clear();
+                        Console.WriteLine("Progama finalizado!\n");
                         sistema = false;
                         break;
                 }
