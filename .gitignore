@@ -1,0 +1,8 @@
+# Build
+bin/
+obj/
+
+# User files
+*.user
+*.log
+*.cache

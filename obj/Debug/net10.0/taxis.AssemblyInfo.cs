@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("taxis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+782717738f9e1af8b05c79f47e8df3871b2c8bc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("taxis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("taxis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
