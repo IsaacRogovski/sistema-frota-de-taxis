@@ -1,0 +1,14 @@
+/home/isaacrogovski/Área de trabalho/taxis/bin/Debug/net10.0/taxis
+/home/isaacrogovski/Área de trabalho/taxis/bin/Debug/net10.0/taxis.deps.json
+/home/isaacrogovski/Área de trabalho/taxis/bin/Debug/net10.0/taxis.runtimeconfig.json
+/home/isaacrogovski/Área de trabalho/taxis/bin/Debug/net10.0/taxis.dll
+/home/isaacrogovski/Área de trabalho/taxis/bin/Debug/net10.0/taxis.pdb
+/home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/taxis.GeneratedMSBuildEditorConfig.editorconfig
+/home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/taxis.AssemblyInfoInputs.cache
+/home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/taxis.AssemblyInfo.cs
+/home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/taxis.csproj.CoreCompileInputs.cache
+/home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/taxis.dll
+/home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/refint/taxis.dll
+/home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/taxis.pdb
+/home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/taxis.genruntimeconfig.cache
+/home/isaacrogovski/Área de trabalho/taxis/obj/Debug/net10.0/ref/taxis.dll
