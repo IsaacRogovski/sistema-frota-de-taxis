@@ -8,10 +8,10 @@ namespace taxis
         public static void Main(string[] args)
         {
 
-            float[] valoresCarros = new float[5];
+            float[] valoresCarros = new float[5]; // altere o indice para a quantidade de taxis que deseja
 
             bool sistema = true;
-            string? opcao;
+            char opcao;
 
             while (sistema)
             {
@@ -24,11 +24,11 @@ namespace taxis
                 Console.WriteLine("├ 5 - Zerar o faturamento.");
                 Console.WriteLine("└ 0 - SAIR.");
                 Console.Write("\nInsira a opção que deseja: ");
-                opcao = (Console.ReadLine() ?? "").ToLower();
+                opcao = Console.ReadKey().KeyChar;
 
                 switch (opcao)
                 {
-                    case "1":
+                    case '1':
 
                         Console.Clear();
                         int numeroCarro;
@@ -64,7 +64,7 @@ namespace taxis
 
                         Console.ReadKey();
                         break;
-                    case "2":
+                    case '2':
 
                         Console.Clear();
 
@@ -87,7 +87,7 @@ namespace taxis
                         Console.ReadKey();
 
                         break;
-                    case "3":
+                    case '3':
                         int maiorValor = 0;
                         for(int i = 1; i<valoresCarros.Length; i++)
                         {
@@ -99,7 +99,7 @@ namespace taxis
                         Console.WriteLine("\nO taxi que mais faturou foi o {0}, com {1}",maiorValor+1,valoresCarros[maiorValor].ToString("C"));
                         Console.ReadKey();
                         break;
-                    case "4":
+                    case '4':
                         int menorValor = 0;
                         for(int i = 1; i<valoresCarros.Length; i++)
                         {
@@ -111,7 +111,7 @@ namespace taxis
                         Console.WriteLine("\nO taxi que menos faturou foi o {0}, com {1}",menorValor+1,valoresCarros[menorValor].ToString("C"));
                         Console.ReadKey();
                         break;
-                    case "5":
+                    case '5':
                         Console.Clear();
                         Console.Write("Você tem certeza que deseja zerar o faturamento? (S/N): ");
                         if(FuncoesAuxiliares.simOuNao() == true)
@@ -124,7 +124,7 @@ namespace taxis
                             Console.ReadKey();
                         }
                         break;
-                    case "0":
+                    case '0':
                         Console.Clear();
                         Console.WriteLine("Progama finalizado!\n");
                         sistema = false;
@@ -165,8 +165,8 @@ namespace taxis
             public static bool simOuNao()
             {
 
-                string opcaoSelecionadaSimOuNao = (Console.ReadLine() ?? "").ToLower();
-                return opcaoSelecionadaSimOuNao == "s" ? true : false;
+                char opcaoSelecionadaSimOuNao = Console.ReadKey().KeyChar;
+                return opcaoSelecionadaSimOuNao == 's' ? true : false;
             }
         }
     }
